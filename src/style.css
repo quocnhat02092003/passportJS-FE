@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer p {
+    color: red;
+    font-size: 12px;
+    padding: 10px 10px;
+}
+
+.footer {
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-blog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.redirect-login {
+    height: 90vh;
+}
+
+.image-me {
+    object-fit: cover;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card-home {
+    box-shadow: 20px 20px 10px grey;
+    border: 1px solid orange;
+}
+
+.dropbnt {
+    border: 1px solid red;
+    padding: 10px 10px;
+}
+
+.span-comment {
+    text-align: center;
+    font-size: 14px;
+}
+
+#messages {
+    list-style-type: none;
+}
+
+.container .typewriter {
+    font-size: 50px;
+}
+
+.container .typewriter div {
+    display: inline;
+}
+
+.container .typewriter .read-typewriter {
+    color: red;
+}
